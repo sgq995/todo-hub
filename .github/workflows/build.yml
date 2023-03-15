@@ -22,4 +22,4 @@ jobs:
         node-version: 18.x
         cache: 'yarn'
     - run: yarn install --frozen-lockfile
-    - run: yarn run build --if-present
+    - run: yarn run build
